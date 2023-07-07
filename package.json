@@ -2,7 +2,7 @@
   "private": true,
   "name": "opportfolio",
   "version": "1.2.0",
-  "homepage": "https://me-one-wine.vercel.app/",
+  "homepage": "https://me-k299cfcqj-bassirishabh.vercel.app/",
   "scripts": {
     "build": "react-scripts build",
     "predeploy": "npm run build",
