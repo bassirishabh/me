@@ -23,13 +23,13 @@ const greeting = {
 
 const socialMediaLinks = {
   /* Your Social Media Link */
-  github: "https://github.com/hrishi1999",
-  linkedin: "https://www.linkedin.com/in/hrishi-patel-ba8476140/",
-  gmail: "hrishipatel99@gmail.com",
+  github: "https://github.com/bassirishabh",
+  linkedin: "https://www.linkedin.com/in/rishabh-bassi/",
+  gmail: "bassirishabh@gmail.com",
   gitlab: " ",
-  facebook: " ",
-  twitter: "https://twitter.com/hrishi_55",
-  instagram: "https://www.instagram.com/picleric/",
+  facebook: "https://www.facebook.com/bassirishabh",
+  twitter: "https://twitter.com/bassi_rishabh",
+  instagram: "https://www.instagram.com/rishabh_bassi/",
 };
 
 const skills = {
@@ -637,7 +637,7 @@ const contactPageData = {
     title: "Blogs",
     subtitle:
       "I don't blog frequently but when I do something awesome, I do try my best to write a blog about it.",
-    link: "https://medium.com/@hrishipatel99",
+    link: "https://rishabhbassi.hashnode.dev/",
     avatar_image_path: "blogs_image.svg",
   },
 };
