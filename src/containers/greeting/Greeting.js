@@ -6,6 +6,7 @@ import { Fade } from "react-reveal";
 import { useHistory } from "react-router-dom";
 import FeelingProud from "./FeelingProud";
 import { style } from "glamor";
+import { useState, useEffect } from 'react';
 
 export default function Greeting(props) {
   const theme = props.theme;
@@ -17,6 +18,42 @@ export default function Greeting(props) {
       boxShadow: `0 5px 15px ${theme.accentBright}`,
     },
   });
+  const [textIndex, setTextIndex] = useState(0);
+  const [typedText, setTypedText] = useState('');
+
+  useEffect(() => {
+    const texts = [
+      "Full Stack Developer, Machine Learning Enthusiast.",
+      "Passionate about web development and creating innovative solutions.",
+      "Always learning. Constantly exploring the intersections of technology and creativity."
+    ];
+
+    let currentIndex = 0;
+    let intervalId;
+
+    const startTyping = () => {
+      const currentText = texts[textIndex];
+      intervalId = setInterval(() => {
+        if (currentIndex < currentText.length) {
+          setTypedText((prevText) => prevText + currentText[currentIndex]);
+          currentIndex++;
+        } else {
+          clearInterval(intervalId);
+          setTimeout(() => {
+            setTypedText('');
+            currentIndex = 0;
+            setTextIndex((prevIndex) => (prevIndex + 1) % texts.length); // Rotate to the next text
+            startTyping();
+          }, 2000); // Reset typing after 2 seconds
+        }
+      }, 100);
+    };
+
+    startTyping();
+
+    return () => clearInterval(intervalId);
+  }, [textIndex]);
+
 
   return (
     <Fade bottom duration={2000} distance="40px">
@@ -33,7 +70,7 @@ export default function Greeting(props) {
                 <span style={{ color: theme.accentColor }}>
                   {greeting.full_name}.{" "}
                 </span>
-                {greeting.subTitle}
+                {typedText}
               </p>
               <SocialMedia />
               <div className="portfolio-repo-btn-div">

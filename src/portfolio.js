@@ -17,7 +17,7 @@ const greeting = {
   subTitle:
     "Full Stack Developer, Machine Learning Enthusiast. Always learning.",
   resumeLink:
-    "https://drive.google.com/file/d/1kcvW8P65jWZFeKR6Jopf3nrQLA1qJCwn/view?usp=sharing",
+    "https://drive.google.com/file/d/1WfVGcqVyoBP4OV3J0C5z7b8t7hydRCtU/view?usp=drive_link",
   mail: "mailto:bassirishabh@gmail.com",
 };
 
@@ -38,9 +38,10 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
+        "⚡ Backend SW development using Python, NodeJS, ExpressJS and Django/Flask",
         "⚡ Building responsive website front end using ReactJS and Angular",
         "⚡ Developing mobile applications using Flutter and native Android",
-        "⚡ Backend development using NodeJS, ExpressJS and Flask",
+        "⚡ Backend Firmware Development using C and Python  - SSD FW",
       ],
       softwareSkills: [
         {
@@ -87,15 +88,15 @@ const skills = {
           },
         },
         {
-          skillName: "Dart",
-          fontAwesomeClassname: "simple-icons:dart",
+          skillName: "Python",
+          fontAwesomeClassname: "simple-icons:python",
           style: {
             color: "#29B0EE",
           },
         },
         {
-          skillName: "Go",
-          fontAwesomeClassname: "simple-icons:go",
+          skillName: "Rails",
+          fontAwesomeClassname: "simple-icons:rails",
           style: {
             color: "#00A7D0",
           },
@@ -108,8 +109,8 @@ const skills = {
           },
         },
         {
-          skillName: "C#",
-          fontAwesomeClassname: "simple-icons:csharp",
+          skillName: "Ruby",
+          fontAwesomeClassname: "simple-icons:ruby",
           style: {
             backgroundColor: "transparent",
             color: "#3776AB",
@@ -197,11 +198,20 @@ const skills = {
         },
 
         {
+          skillName: "VSCode",
+          fontAwesomeClassname: "simple-icons:visualstudio",
+          style: {
+            color: "#207297",
+          },
+        },
+
+        {
           skillName: "Git",
           fontAwesomeClassname: "simple-icons:git",
           style: {
             color: "#E94E32",
           },
+
         },
       ],
     },
@@ -629,7 +639,7 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "hrishi2.png",
+    profile_image_path: "rishabh.jpg",
     description:
       "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
   },

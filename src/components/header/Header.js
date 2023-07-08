@@ -25,9 +25,8 @@ function Header(props) {
     outline: "none",
     transition: "all 0.2s ease-in-out",
     ":hover": {
-      boxShadow: `0 3px 8px ${
-        props.theme.name === "light" ? "#F7D774" : "#646464"
-      }`,
+      boxShadow: `0 3px 8px ${props.theme.name === "light" ? "#F7D774" : "#646464"
+        }`,
     },
   });
 
@@ -138,12 +137,12 @@ function Header(props) {
                 className="cr"
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://play.google.com/store/apps/details?id=com.picle.journalify"
+                href="https://bassirishabh.github.io."
                 tag={Link}
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
               >
-                Journalify
+                Website
               </a>
             </li>
             <button {...styles} onClick={changeTheme}>
