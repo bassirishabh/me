@@ -217,13 +217,13 @@ const skills = {
     },
 
     {
-      title: "Cloud Infra-Architecture",
+      title: "Cloud & Parallel Computing",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Certified AWS Developer Associate and Cloud Practioner",
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Experience hosting and managing web apps on GCP and AWS",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
+        "⚡ Certified AWS Developer and Cloud Practioner in handling distributed systems",
+        "⚡ Experience working on multiple cloud platforms and Faster Processing using Multi cloud architecture Hadoop",
+        "⚡ Experience hosting and managing web apps on GCP and AWS along with fastracking code on GPU",
+        "⚡ Experience in Parallelizing and Optimizing Code using Open MP, MPI, Multiprocessing",
       ],
       softwareSkills: [
         {
@@ -278,12 +278,14 @@ const skills = {
       ],
     },
     {
-      title: "Data Science & AI",
+      title: "Machine Learning & AI",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Experience of working with Computer Vision and NLP projects",
+        "⚡ Proficient Experience of working with Machine Learning, DL Models and NLP Technologies such as BERT",
+        "⚡ Extensive Research Experience in ML Domain with 3 publication and 3+ years of working as Research Assistant.",
         "⚡ Certifications by deeplearning.ai and Stanford Online",
-        "⚡ Experience with 10+ Projects",
+        "⚡ Passion to delve deeper into NLP and Generative AI to contribute to Healthcare Domain",
+        "⚡ Experience with 10+ Projects ranging from Data Analysis to ML Models, from DL to Generative AI",
       ],
       softwareSkills: [
         {
@@ -296,6 +298,14 @@ const skills = {
         {
           skillName: "Keras",
           fontAwesomeClassname: "simple-icons:keras",
+          style: {
+            backgroundColor: "white",
+            color: "#D00000",
+          },
+        },
+        {
+          skillName: "Hugging Face",
+          fontAwesomeClassname: "emojione:hugging-face",
           style: {
             backgroundColor: "white",
             color: "#D00000",
@@ -365,7 +375,7 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "AWS Developer Associate",
+      title: "Advanced Java Training",
       subtitle: "Amazon Web Services",
       logo_path: "aws.png",
       certificate_link:
@@ -681,7 +691,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects. Below are some of my projects. Note that not all of the mentioned projects are on GitHub yet.",
+    "Welcome to the Projects page, where innovation meets technology and Machine Learning! Here, I showcase a diverse range of projects that demonstrate my passion for exploring the latest tools and technologies. From captivating data visualizations to machine learning models, each project represents a unique endeavor that pushes the boundaries of what's possible. Whether it's diving into the depths of natural language processing or unraveling complex patterns in large datasets, these projects highlight my commitment to building impactful solutions.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -705,25 +715,37 @@ const contactPageData = {
 const projects = {
   data: [
     {
-      name: "Journalify",
-      url: "https://play.google.com/store/apps/details?id=com.picle.journalify",
+      name: "Travelix",
+      url: "https://travelix2.vercel.app/",
       description:
-        "You personal journaling companion, goals & daily challenges! About 5k+ downloads on Play Store.",
+        "TRAVELIX is a personalized travel recommendation system that provides recommendations to users based on their preferences and travel history.",
       languages: [
         {
-          name: "Flutter",
-          iconifyClass: "logos-flutter",
+          name: "Ruby",
+          iconifyClass: "logos-ruby",
         },
         {
-          name: "Firebase",
-          iconifyClass: "logos-firebase",
+          name: "Python",
+          iconifyClass: "logos-python",
+        },
+        {
+          name: "Machine Learning",
+          iconifyClass: "carbon:machine-learning",
+        },
+        {
+          name: "User User CF",
+          iconifyClass: "fluent-emoji:information",
+        },
+        {
+          name: "Auto Rec",
+          iconifyClass: "file-icons:adobe-mediaencoder",
         },
       ],
     },
     {
-      name: "RecipesAPI",
-      url: "https://rapidapi.com/Hrishi1999/api/recipesapi2",
-      description: "Get recipes for hundreds and thousands of dishes",
+      name: "TA Management Portal",
+      url: "https://www.youtube.com/watch?v=DCYwQhl1O4g&ab_channel=harmanpreetsingh",
+      description: "The app handles the student applications for TA positions in the computer science department with various functionalities of the hiring manager, professor, and student.",
       languages: [
         {
           name: "NodeJS",
@@ -733,308 +755,284 @@ const projects = {
           name: "JavaScript",
           iconifyClass: "logos-javascript",
         },
-      ],
-    },
-    {
-      name: "opPortfolio",
-      url: "https://github.com/Hrishi1999/opPortfolio",
-      description: "(This) A clean and full customizable portfolio template.",
-      languages: [
         {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
+          name: "Ruby on Rails",
+          iconifyClass: "logos-rails",
         },
       ],
     },
     {
-      name: "Cab Security System",
-      url: " ",
-      description:
-        "Driver drowsiness detection, profanity detection, violence detection, SMS alerts, cab driver tracking.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Tensorflow",
-          iconifyClass: "logos-tensorflow",
-        },
-        {
-          name: "OpenCV",
-          iconifyClass: "logos-opencv",
-        },
-      ],
-    },
-    {
-      name: "Lensinator",
-      url: " ",
-      description:
-        "Published on Play Store back in 2017, crossed 55K downloads. Performed object detection, image captioning, OCR, handwritten OCR, barcode and QR code scanning with product information.",
-      languages: [
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-java",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Firebase",
-          iconifyClass: "logos-firebase",
-        },
-      ],
-    },
-    {
-      name: "Doorbell.io",
-      url: "https://github.com/Hrishi1999/Doorbell.io",
-      description:
-        "A sound-classifier webapp made with ReactJS + TensorflowJS.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "TensorflowJS",
-          iconifyClass: "logos-tensorflow",
-        },
-      ],
-    },
-    {
-      name: "Video Summarization (WIP)",
-      url: "https://github.com/Hrishi1999/Video-Summarization",
-      description:
-        "A video summarization webapp. A Flask-based backend which servers the Tensorflow model and a frontend made in ReactJS.",
-      languages: [
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "Tensorflow",
-          iconifyClass: "logos-tensorflow",
-        },
-      ],
-    },
-    {
-      name: "Dashboard Activity",
-      url: "https://github.com/Hrishi1999/Dashboard.activity",
-      description:
-        "Google Summer of Code project. A Dashboard activity for Sugar OS which tracks user activity so user can know where they use their most time and where they create most files.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-      ],
-    },
-    {
-      name: "Project Pickle",
-      url: " ",
-      description:
-        "An app similar to Uber Eats but targeted for Gruhudhyogs (homemade pickles and products). Order management, live order tracking, rating and reviews system, etc.",
+      name: "Network Optimization Graphs",
+      url: "https://github.com/bassirishabh/AlgoProject_Graphs",
+      description: "Perform Network optimization by implementing a network routing protocol using the data structures and algorithms such as Graph, Heap, Make Union find.",
       languages: [
         {
           name: "Java",
           iconifyClass: "logos-java",
         },
         {
-          name: "Firebase",
-          iconifyClass: "logos-firebase",
+          name: "Algorithms",
+          iconifyClass: "devicon:thealgorithms",
         },
         {
-          name: "Python",
-          iconifyClass: "logos-python",
+          name: "Data Structures",
+          iconifyClass: "arcticons:dsb",
         },
       ],
     },
     {
-      name: "Project Health Card",
-      url: "",
+      name: "Codex AI",
+      url: "https://aicodexaviva.vercel.app/",
       description:
-        "An aadhard-card like utility card which keeps track of all your health records suchs as: Medicines, Lab Reports, Recent Diseases, Allergies, etc.",
+        "AI as a humanoid to solve various challeneges, tasks and coding problems.",
       languages: [
         {
-          name: "JavaScript",
+          name: "Python",
+          iconifyClass: "logos-python",
+        },
+        {
+          name: "Tensorflow",
+          iconifyClass: "logos-tensorflow",
+        },
+        {
+          name: "OpenAI",
+          iconifyClass: "logos-openai",
+        },
+        {
+          name: "React",
+          iconifyClass: "logos-react",
+        },
+      ],
+    },
+    {
+      name: "Humanoid",
+      url: "https://www.youtube.com/watch?v=DXLhJYifnIE&ab_channel=Logerine",
+      description:
+        "Build a Humanoid to function as a ChatBot using TensorFlow; Identify objects using OCR, perform functions such as Personalized AI and help in interview preparation",
+      languages: [
+        {
+          name: "Python",
+          iconifyClass: "logos-python",
+        },
+        {
+          name: "Raspberry Pi",
+          iconifyClass: "devicon:raspberrypi",
+        },
+        {
+          name: "Image Processing",
+          iconifyClass: "bi:image-fill",
+        },
+        {
+          name: "Natural Language Processing",
+          iconifyClass: "vscode-icons:file-type-ai",
+        },
+      ],
+    },
+    {
+      name: "Data Mining and Analysis",
+      url: "https://github.com/bassirishabh/Project_DataMining",
+      description:
+        "Implemented supervised and unspervised classification techniques such as XGBoost, Boruta, Nested CV to do learning task on dataset consisting of 500 features and 1000 samples. ",
+      languages: [
+        {
+          name: "R",
+          iconifyClass: "logos-r-lang",
+        },
+        {
+          name: "XGBoost/PCA",
+          iconifyClass: "arcticons:pcapdroid",
+        },
+        {
+          name: "Data Mining",
+          iconifyClass: "eos-icons:data-mining",
+        },
+      ],
+    },
+    {
+      name: "Automatic Text Summarization",
+      url: "https://github.com/bassirishabh/Text-Summarizer",
+      description:
+        "Utilize Natural Language Processing to summarize a source of data (webpage, Wikipedia, PDF); Results delivered via e-mail",
+      languages: [
+        {
+          name: "Python",
+          iconifyClass: "logos-python",
+        },
+        {
+          name: "Django",
+          iconifyClass: "akar-icons:django-fill",
+        },
+        {
+          name: "Front End",
+          iconifyClass: "simple-icons:frontendmentor",
+        },
+        {
+          name: "Tensorflow",
+          iconifyClass: "logos-tensorflow",
+        },
+      ],
+    },
+    {
+      name: "Speak Translator",
+      url: "https://github.com/bassirishabh/Text-Summarizer",
+      description:
+        "Application to translate image text to user specified language; Uses OCR to covert image to text; Translation API’s; TTS to convert translated text to audio",
+      languages: [
+        {
+          name: "Android",
+          iconifyClass: "logos-android",
+        },
+        {
+          name: "Jupyter Notebook",
+          iconifyClass: "logos-jupyter",
+        },
+        {
+          name: "OCR",
+          iconifyClass: "mdi:ocr",
+        },
+      ],
+    },
+    {
+      name: "Combo Offers Portal",
+      url: "https://github.com/bassirishabh/Combos",
+      description:
+        "Management portal for e-commerce websites for inventory management. Displays all products which can be brought together in a specified budget",
+      languages: [
+        {
+          name: "Python",
+          iconifyClass: "logos-python",
+        },
+        {
+          name: "Django",
+          iconifyClass: "logos-django",
+        },
+        {
+          name: "Web App",
+          iconifyClass: "carbon:application-web",
+        },
+      ],
+    },
+    {
+      name: "Line Follower Robot",
+      url: "https://github.com/bassirishabh/Combos",
+      description:
+        "Developed Buggy using ultrasound and other sensors to detects objects and takes appropriate turns/actions.",
+      languages: [
+        {
+          name: "Arduino",
+          iconifyClass: "logos-arduino",
+        },
+        {
+          name: "Sensors",
+          iconifyClass: "material-symbols:sensors",
+        },
+      ],
+    },
+    {
+      name: "Himachal Tourism Website",
+      url: "https://github.com/bassirishabh/Portal-For-Tourism",
+      description:
+        "Developed Website using HTML,CSS and JS as forntend porject for Himachal Tourism",
+      languages: [
+        {
+          name: "HTML",
+          iconifyClass: "logos-html-5",
+        },
+        {
+          name: "CSS",
+          iconifyClass: "logos-css-3",
+        },
+        {
+          name: "JS",
+          iconifyClass: "vscode-icons:file-type-js",
+        },
+      ],
+    },
+    {
+      name: "Bacteria Detection using Deep Learning",
+      url: "https://github.com/bassirishabh/DeepLearning_BacteriaDetection",
+      description:
+        "Detection of bacteria using Convolutional Neural Network Deep Learning Techniques",
+      languages: [
+        {
+          name: "Python",
+          iconifyClass: "logos-python",
+        },
+        {
+          name: "Jupyter Notebook",
+          iconifyClass: "logos-jupyter",
+        },
+        {
+          name: "Deep Learning",
+          iconifyClass: "devicon:keras",
+        },
+      ],
+    },
+    {
+      name: "Employee Management System",
+      url: "https://github.com/bassirishabh/DeepLearning_BacteriaDetection",
+      description:
+        "Allows admins to mutate and manage employee details; Allows portal access and management to employees",
+      languages: [
+        {
+          name: "Visual Basic",
+          iconifyClass: "logos-dotnet",
+        },
+        {
+          name: "Java",
           iconifyClass: "logos-java",
         },
         {
+          name: "JSP",
+          iconifyClass: "logos:jspm",
+        },
+        {
+          name: "DBMS",
+          iconifyClass: "mdi:database",
+        },
+        {
+          name: "SQL",
+          iconifyClass: "logos:mysql",
+        },
+      ],
+    },
+    {
+      name: "Political Propoganda Influence using Twitter SA",
+      url: "https://github.com/bassirishabh/Twitter_SA_Political",
+      description:
+        "Predict influence of celebrities during elections using sentiment analysis on Retweets of their followers.",
+      languages: [
+        {
           name: "Python",
           iconifyClass: "logos-python",
         },
         {
-          name: "Firebase",
-          iconifyClass: "logos-firebase",
+          name: "Twitter",
+          iconifyClass: "logos-twitter",
         },
         {
-          name: "ReactJS",
+          name: "NLP",
+          iconifyClass: "carbon:ibm-watson-natural-language-understanding",
+        },
+        {
+          name: "Hugging Face",
+          iconifyClass: "emojione:hugging-face",
+        },
+      ],
+    },
+    {
+      name: "Personal Portfolio",
+      url: "https://github.com/bassirishabh/me",
+      description:
+        "(This) Personal Portfolio developed using React to give insights into my life.",
+      languages: [
+        {
+          name: "React",
           iconifyClass: "logos-react",
         },
         {
-          name: "MongoDB",
-          iconifyClass: "logos-mongodb",
-        },
-      ],
-    },
-    {
-      name: "Food Classifier",
-      url: " ",
-      description:
-        "A food classifier app using tflite which classfier over 50 Indian Dishes.",
-      languages: [
-        {
-          name: "Flutter",
-          iconifyClass: "logos-flutter",
-        },
-        {
-          name: "Dart",
-          iconifyClass: "logos-dart",
-        },
-        {
-          name: "Tensorflow",
-          iconifyClass: "logos-tensorflow",
-        },
-        {
-          name: "Jupyter Notebook",
-          iconifyClass: "logos-jupyter",
-        },
-      ],
-    },
-    {
-      name: "Image Clustering",
-      url: " ",
-      description:
-        "A simple use of K-Means Clustering algorithm to sort images by automatically predicting number of classes. This can be used to clean an image dataset.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Jupyter Notebook",
-          iconifyClass: "logos-jupyter",
-        },
-      ],
-    },
-    {
-      name: "Antivirus",
-      url: " ",
-      description:
-        "A project from 2012. Made an antivirus with realtime scanning. Implemented by using comparison of md5 hashes.",
-      languages: [
-        {
-          name: "Visual Basic",
-          iconifyClass: "logos-dotnet",
-        },
-      ],
-    },
-    {
-      name: "Sugar on Windows",
-      url: " ",
-      description:
-        "Run and setup Sugar OS to be able to run on Windows using Windows Subsystem for Linux",
-      languages: [
-        {
-          name: "Visual Basic",
-          iconifyClass: "logos-dotnet",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-      ],
-    },
-    {
-      name: "Object + Face Detection",
-      url: " ",
-      description: "2017 project. Object detection + accurate face detection.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Tensorflow",
-          iconifyClass: "logos-tensorflow",
-        },
-        {
-          name: "OpenCV",
-          iconifyClass: "logos-opencv",
-        },
-      ],
-    },
-    {
-      name: "Image Captioning with Visual Attention",
-      url: " ",
-      description: "Ongoing. Used MSCOCO 2014/2017 for image captioning.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Tensorflow",
-          iconifyClass: "logos-tensorflow",
-        },
-        {
-          name: "Jupyter Notebook",
-          iconifyClass: "logos-jupyter",
-        },
-      ],
-    },
-    {
-      name: "DalSocial",
-      url: " ",
-      description:
-        "CSCI5708 Project. A social media and meetups app for university students. ",
-      languages: [
-        {
-          name: "Kotlin",
-          iconifyClass: "simple-icons:kotlin",
-          color: "#F18E33",
-        },
-        {
-          name: "Android",
-          iconifyClass: "simple-icons:android",
-          color: "#3DDC84",
-        },
-        {
-          name: "Firebase",
-          iconifyClass: "logos-firebase",
-        },
-      ],
-    },
-    {
-      name: "HalifaxFoodie",
-      url: " ",
-      description:
-        "CSCI5410 Project. A multi-client recipe app for Halifax Foodies.",
-      languages: [
-        {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "AWS",
-          iconifyClass: "logos-aws",
-        },
-        {
-          name: "Google Cloud",
-          iconifyClass: "logos-google-cloud",
+          name: "Netlify",
+          iconifyClass: "logos-netlify",
         },
       ],
     },

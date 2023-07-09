@@ -23,7 +23,7 @@ export default function Greeting(props) {
 
   useEffect(() => {
     const texts = [
-      "Full Stack Developer, Machine Learning Enthusiast.",
+      "Full Stack Developer, Passionate ML engineer.",
       "Passionate about ML, SW Development and leveraging cutting edge technologies to develop innovative solutions.",
       "Always learning and exploring the intersections of technology and creativity."
     ];
