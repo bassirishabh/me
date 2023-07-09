@@ -24,8 +24,8 @@ export default function Greeting(props) {
   useEffect(() => {
     const texts = [
       "Full Stack Developer, Machine Learning Enthusiast.",
-      "Passionate about web development and creating innovative solutions.",
-      "Always learning. Constantly exploring the intersections of technology and creativity."
+      "Passionate about ML, SW Development and leveraging cutting edge technologies to develop innovative solutions.",
+      "Always learning and exploring the intersections of technology and creativity."
     ];
 
     let currentIndex = 0;
