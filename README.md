@@ -1,7 +1,7 @@
 # Rishabh Bassi's Portfolio
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/afea2508-00ca-464f-8f63-a4283928fc0f/deploy-status)](https://app.netlify.com/sites/bassirishabh/deploys)
-![opPortfolio](/images/portfolio.gif)
+![opPortfolio](/images/portfolio.png)
 
 ### My Portfolio to give insights into my life
 
