@@ -41,7 +41,7 @@ function Education(props) {
                 className="experience-header-detail-text subTitle"
                 style={{ color: theme.secondaryText }}
               >
-                I love to solve challenges and always eager to learn something new be it online courses or life necessities like cooking. I actively participate in hackathons and other tech-related activities.
+                I love to solve challenges and always eager to learn something new be it online courses or life necessities like cooking. I actively participate in hackathons and other tech-related activities. My Detailed CV can be found <a href="https://drive.google.com/file/d/1lCLnRDunYekF7tq1I-X5g1Ye1_6MQ-Br/view?usp=sharing">Here</a>.
               </p>
 
             </div>
