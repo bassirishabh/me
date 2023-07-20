@@ -17,7 +17,7 @@ const greeting = {
   subTitle:
     "Full Stack Developer, Machine Learning Enthusiast. Always learning.",
   resumeLink:
-    "https://drive.google.com/file/d/1sP3I9VZZlTrKS0YOHnR6eF8wwJ5LDTTv/view?usp=drive_link",
+    "https://drive.google.com/file/d/1RB_tRHppZxEMWBlf_jk0fhccezttNdK4/view?usp=drive_link",
   mail: "mailto:bassirishabh@gmail.com",
 };
 
@@ -722,14 +722,14 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "rishabh.jpg",
+    profile_image_path: "rishabh2.jpg",
     description:
       "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
   },
   blogSection: {
     title: "Blogs",
     subtitle:
-      "I don't blog frequently but when I do something awesome, I do try my best to write a blog about it.",
+      "Here you will find my blogs - Whenever I do something awesome, I do try my best to write a blog about it.",
     link: "https://rishabhbassi.hashnode.dev/",
     avatar_image_path: "blogs_image.svg",
   },
