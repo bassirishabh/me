@@ -211,7 +211,6 @@ const skills = {
           style: {
             color: "#E94E32",
           },
-
         },
       ],
     },
@@ -384,7 +383,8 @@ const certifications = {
       color_code: "#ffc475",
     },
     {
-      title: "Natural Language Processing with Classification and Vector Spaces",
+      title:
+        "Natural Language Processing with Classification and Vector Spaces",
       subtitle: "DeepLearning.AI",
       logo_path: "deeplearning_ai_logo.png",
       certificate_link:
@@ -396,7 +396,8 @@ const certifications = {
       title: "Mastering Data Structures and Algorithms",
       subtitle: "Udemy",
       logo_path: "coursera_logo.png",
-      certificate_link: "https://www.udemy.com/certificate/UC-ac3a4583-a01c-4efa-8ddf-6306d63584df/",
+      certificate_link:
+        "https://www.udemy.com/certificate/UC-ac3a4583-a01c-4efa-8ddf-6306d63584df/",
       alt_name: "Udemy",
       color_code: "#ffc475",
     },
@@ -428,8 +429,7 @@ const certifications = {
       title: "Deep Learning Specialization",
       subtitle: "deeplearning.ai",
       logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        " ",
+      certificate_link: " ",
       alt_name: "deeplearning.ai",
       color_code: "#47A048",
     },
@@ -437,8 +437,7 @@ const certifications = {
       title: "Sequence Models",
       subtitle: "deeplearning.ai",
       logo_path: "google_logo.png",
-      certificate_link:
-        "",
+      certificate_link: "",
       alt_name: "deeplearning.ai",
       color_code: "#F6B808",
     },
@@ -446,8 +445,7 @@ const certifications = {
       title: "Convolutional Neural Networks",
       subtitle: "deeplearning.ai",
       logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "",
+      certificate_link: "",
       alt_name: "deeplearning.ai",
       color_code: "#2AAFED",
     },
@@ -473,8 +471,7 @@ const certifications = {
       title: "Improving Deep Neural Networks",
       subtitle: "deeplearning.ai",
       logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        " ",
+      certificate_link: " ",
       alt_name: "Google",
       color_code: "#0C9D5899",
     },
@@ -482,7 +479,8 @@ const certifications = {
       title: "Android App Development",
       subtitle: "Summer Training Intershala",
       logo_path: "is.png",
-      certificate_link: "https://drive.google.com/drive/u/0/folders/1E65Fu8D10CT_iiYDJ2-8skfpDO0fZSbQ",
+      certificate_link:
+        "https://drive.google.com/drive/u/0/folders/1E65Fu8D10CT_iiYDJ2-8skfpDO0fZSbQ",
       alt_name: "Google",
       color_code: "#C5E2EE",
     },
@@ -506,7 +504,8 @@ const certifications = {
       title: "LinkedIN NLP Course",
       subtitle: "LinkedIN Learning",
       logo_path: "ll.png",
-      certificate_link: "https://www.linkedin.com/learning/certificates/9ae701859b8925c1b32d4ff528194c5f968b5b25c78e3172b4f181e025ce2348?u=104  ",
+      certificate_link:
+        "https://www.linkedin.com/learning/certificates/9ae701859b8925c1b32d4ff528194c5f968b5b25c78e3172b4f181e025ce2348?u=104  ",
       alt_name: "Linkedin",
       color_code: "#fffbf3",
     },
@@ -514,7 +513,8 @@ const certifications = {
       title: "LinkedIN Excel Course",
       subtitle: "LinkedIN Learning",
       logo_path: "ll.png",
-      certificate_link: "https://www.linkedin.com/learning/certificates/8f1500872494aa1589bc5c27389188b036daba0224a0d4339aa65565480017bb",
+      certificate_link:
+        "https://www.linkedin.com/learning/certificates/8f1500872494aa1589bc5c27389188b036daba0224a0d4339aa65565480017bb",
       alt_name: "Linkedin",
       color_code: "#fffbf3",
     },
@@ -550,7 +550,6 @@ const certifications = {
       alt_name: "Qualcomm",
       color_code: "#fffbf3",
     },
-
   ],
 };
 
@@ -565,6 +564,17 @@ const experience = {
     {
       title: "Work",
       experiences: [
+        {
+          title: "Graduate Teaching Assistant",
+          company: "Texas A&M University",
+          company_url: "https://www.tamu.edu/",
+          logo_path: "tamu.png",
+          duration: "August 2023 - December 2023",
+          location: "College Station, TX",
+          description:
+            "Working as a Graduate Teaching Assistant in Computer Science Department for the course CSE 121: Program Design and Concepts. Involved in Teaching, Lab Supervision, Automation and Grading",
+          color: "#f10000",
+        },
         {
           title: "Graduate Research Assistant",
           company: "Texas A&M University",
@@ -621,7 +631,8 @@ const experience = {
           logo_path: "wd.png",
           duration: "Jun 2018 - Jul 2018",
           location: "Bangalore, KA",
-          description: "Developed a Performance Counter Framework to help developer analyze defects in coding schemes. Analyzed results of this framework to optimize and remove the bottleneck in SSD Firmware",
+          description:
+            "Developed a Performance Counter Framework to help developer analyze defects in coding schemes. Analyzed results of this framework to optimize and remove the bottleneck in SSD Firmware",
           color: "#56A4D3",
         },
       ],
@@ -642,8 +653,10 @@ const experience = {
         },
         {
           title: "Research Publication",
-          company: "International Conference On Computational Vision and Bio Inspired Computing",
-          company_url: "https://link.springer.com/chapter/10.1007/978-981-16-9573-5_26",
+          company:
+            "International Conference On Computational Vision and Bio Inspired Computing",
+          company_url:
+            "https://link.springer.com/chapter/10.1007/978-981-16-9573-5_26",
           logo_path: "publication.jpeg",
           duration: "2021",
           location: "Remote",
@@ -653,7 +666,8 @@ const experience = {
         },
         {
           title: "Research Publication",
-          company: "International Conference on Advancements in Computing, Communication and Technology",
+          company:
+            "International Conference on Advancements in Computing, Communication and Technology",
           company_url: "",
           logo_path: "publication.jpeg",
           duration: "2021",
@@ -665,12 +679,12 @@ const experience = {
         {
           title: "Research Publication",
           company: "Science Globe International Conference",
-          company_url: "https://www.digitalxplore.org/up_proc/pdf/377-153025525644-48.pdf",
+          company_url:
+            "https://www.digitalxplore.org/up_proc/pdf/377-153025525644-48.pdf",
           logo_path: "publication.jpeg",
           duration: "2018",
           location: "Thapar University",
-          description:
-            "Autonomous Tagging of Stackoverflow Questions",
+          description: "Autonomous Tagging of Stackoverflow Questions",
           color: "#D83B01",
         },
         {
@@ -680,7 +694,8 @@ const experience = {
           logo_path: "pushap.png",
           duration: " Aug 2020 - Jul 2022",
           location: " ",
-          description: "Managed family business Pushap Industries by directing manfacturing workforce along with coordinating supply chain.",
+          description:
+            "Managed family business Pushap Industries by directing manfacturing workforce along with coordinating supply chain.",
           color: "#D83B01",
         },
         {
@@ -722,7 +737,7 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "rishabh2.jpg",
+    profile_image_path: "rishabh.gif",
     description:
       "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
   },
@@ -767,8 +782,10 @@ const projects = {
     },
     {
       name: "TA Management Portal",
-      url: "https://www.youtube.com/watch?v=DCYwQhl1O4g&ab_channel=harmanpreetsingh",
-      description: "The app handles the student applications for TA positions in the computer science department with various functionalities of the hiring manager, professor, and student.",
+      url:
+        "https://www.youtube.com/watch?v=DCYwQhl1O4g&ab_channel=harmanpreetsingh",
+      description:
+        "The app handles the student applications for TA positions in the computer science department with various functionalities of the hiring manager, professor, and student.",
       languages: [
         {
           name: "NodeJS",
@@ -787,7 +804,8 @@ const projects = {
     {
       name: "Network Optimization Graphs",
       url: "https://github.com/bassirishabh/AlgoProject_Graphs",
-      description: "Perform Network optimization by implementing a network routing protocol using the data structures and algorithms such as Graph, Heap, Make Union find.",
+      description:
+        "Perform Network optimization by implementing a network routing protocol using the data structures and algorithms such as Graph, Heap, Make Union find.",
       languages: [
         {
           name: "Java",
