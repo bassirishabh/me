@@ -638,8 +638,19 @@ const experience = {
       ],
     },
     {
-      title: "Research, Hackathon and Leadership Experience",
+      title: "Research, Conferences and Leadership Experience",
       experiences: [
+        {
+          title: "TAPIA'23 Conference Scholarship Recipient",
+          company: "Richard TAPIA",
+          company_url: "https://tapiaconference.cmd-it.org/",
+          logo_path: "tapia.jpeg",
+          duration: "2023",
+          location: "Dallas",
+          description:
+            "Awarded the prestigious scholarship for Richard TAPIA conference 2023 and represented Texas A&M University at conference held from September 13th to September 16th 2023.",
+          color: "#4285F4",
+        },
         {
           title: "Research Assistant",
           company: "University of Illinois Urbana-Champaign",
