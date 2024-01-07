@@ -1,9 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.fce9490a.css",
-    "main.js": "/static/js/main.277672d7.js",
+    "main.js": "/static/js/main.348139da.js",
+    "static/media/pushap.png": "/static/media/pushap.bb846bcaa7f6c7191583.png",
+    "static/media/rishabh.gif": "/static/media/rishabh.a08902991f2410c04078.gif",
     "static/media/fa-solid-900.svg": "/static/media/fa-solid-900.33f11e8e33e406b0dc21.svg",
     "static/media/fa-brands-400.svg": "/static/media/fa-brands-400.5f2a2f236048660df440.svg",
+    "static/media/rishabh1.JPG": "/static/media/rishabh1.75ae68ae89285e2e48c2.JPG",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/ino.png": "/static/media/ino.adcd3743af4c9c5e57b5.png",
     "static/media/fa-solid-900.eot": "/static/media/fa-solid-900.d93bcbbb0fbfad39d905.eot",
@@ -12,6 +15,7 @@
     "static/media/fa-brands-400.eot": "/static/media/fa-brands-400.b09f783b99c88d6989f7.eot",
     "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.ec7723ea62ad74c14959.ttf",
     "static/media/rishabh.jpg": "/static/media/rishabh.69a0a36bd7ab654da0b6.jpg",
+    "static/media/ll.png": "/static/media/ll.0ea2eb657e488873fc0f.png",
     "static/media/GoogleSans-Italic.ttf": "/static/media/GoogleSans-Italic.40bb50bd202405745006.ttf",
     "static/media/GoogleSans-MediumItalic.ttf": "/static/media/GoogleSans-MediumItalic.56d4f777a7997e5a10b3.ttf",
     "static/media/GoogleSans-BoldItalic.ttf": "/static/media/GoogleSans-BoldItalic.d282e9c31d0f894a7f06.ttf",
@@ -30,25 +34,29 @@
     "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.4a83f63fd7dd55c4ca85.woff2",
     "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.1c638e5f7632ea819e77.woff2",
     "static/media/intel_logo.jpg": "/static/media/intel_logo.d7577f35a3dac4e5636d.jpg",
-    "static/media/rishabh2.jpg": "/static/media/rishabh2.e001f07b7163378d0171.jpg",
+    "static/media/GRE.jpeg": "/static/media/GRE.4bf23341c336a37e6146.jpeg",
+    "static/media/ti1.png": "/static/media/ti1.c837d285c54675e2246a.png",
+    "static/media/aws.png": "/static/media/aws.8e338da6ebcc9d2f2f00.png",
     "static/media/fa-regular-400.eot": "/static/media/fa-regular-400.86ce78132c18df414d83.eot",
     "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.235a1aa30ba10c7d00d0.ttf",
     "static/media/100.jpg": "/static/media/100.73a08d34ff5c2197374f.jpg",
     "static/media/100.png": "/static/media/100.528a5c8b588ab5846e72.png",
+    "static/media/rishabh2.jpg": "/static/media/rishabh2.f6c6591085fcc4940868.jpg",
+    "static/media/coursera.svg": "/static/media/coursera.06864f158d7818658b29.svg",
     "static/media/googleAssistant.jpg": "/static/media/googleAssistant.547075a751cc15673246.jpg",
     "static/media/wrighter.jpg": "/static/media/wrighter.0a6efd88c7795e04684b.jpg",
     "static/media/fa-regular-400.woff": "/static/media/fa-regular-400.2ccf005a6998d30de3d3.woff",
     "static/media/quicko.jpg": "/static/media/quicko.ab474dcf4aa1473d7218.jpg",
-    "static/media/aws.png": "/static/media/aws.ecf81df776e8cbac01bf.png",
     "static/media/cra.png": "/static/media/cra.4c1d7efd4bc9d4d40901.png",
     "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.e5917ad1531005ea8c3f.woff2",
+    "static/media/java.png": "/static/media/java.bdedd77afd2ed3d90c3c.png",
     "static/media/buld.jpg": "/static/media/buld.55444b9789a64f32e2e5.jpg",
     "index.html": "/index.html",
     "main.fce9490a.css.map": "/static/css/main.fce9490a.css.map",
-    "main.277672d7.js.map": "/static/js/main.277672d7.js.map"
+    "main.348139da.js.map": "/static/js/main.348139da.js.map"
   },
   "entrypoints": [
     "static/css/main.fce9490a.css",
-    "static/js/main.277672d7.js"
+    "static/js/main.348139da.js"
   ]
 }

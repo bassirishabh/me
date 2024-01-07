@@ -29,7 +29,7 @@ function Education(props) {
                 className="experience-header-detail-text subTitle"
                 style={{ color: theme.secondaryText }}
               >
-                Welcome to my personal website, which highlights my eduaction
+                Welcome to my personal website, which highlights my education
                 ,research and development projects as well as my personal
                 hobbies.
               </p>

@@ -17,7 +17,7 @@ const greeting = {
   subTitle:
     "Full Stack Developer, Machine Learning Enthusiast. Always learning.",
   resumeLink:
-    "https://drive.google.com/file/d/1se4xvvp-RzbdvXGjSUvG0dT_-1qS3a48/view?usp=sharing",
+    "https://drive.google.com/file/d/1o7o_zIU9ejspIleVG_fzvO78Aux9U8be/view?usp=sharing",
   mail: "mailto:bassirishabh@gmail.com",
 };
 
@@ -216,12 +216,12 @@ const skills = {
     },
 
     {
-      title: "Cloud & Parallel Computing",
+      title: "Cloud Engineer",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Certified AWS Developer and Cloud Practioner in handling distributed systems",
+        "⚡ Certified AWS Developer and Cloud Practitioner in handling distributed systems",
         "⚡ Experience working on multiple cloud platforms and Faster Processing using Multi cloud architecture Hadoop",
-        "⚡ Experience hosting and managing web apps on GCP and AWS along with fastracking code on GPU",
+        "⚡ Experience hosting and managing web apps on GCP and AWS along with fast-tracking code on GPU",
         "⚡ Experience in Parallelizing and Optimizing Code using Open MP, MPI, Multiprocessing",
       ],
       softwareSkills: [
@@ -347,10 +347,10 @@ const degrees = {
       alt_name: "TAMU",
       duration: "2022 - 2024",
       descriptions: [
-        "⚡ Studying Advanced Software Development and Computer Science Concepts with specialization in Machine Learning",
-        "⚡ Maintaing perfect GPA of 4 out of 4 and fully funded MS for a year. Learning Advanced Research Topics in NLP, Info Storage, Cloud Computing and Machine Learning Domain",
-        "⚡ Worked on various impact based projects like TA Management Portal and Travelix.",
-        "⚡ Coursework Taken : Advanced DS and Algo, Machine Learning, Software Engineering, Data Mining and Analysis, Distributed Systems, Information Storage and Reterival ",
+        "⚡ Studying Advanced Software Development and Computer Science Concepts( specialization in Machine Learning) maintaining perfect GPA of 4 out of 4. ",
+        "⚡ Scholarship and fully funded Masters. Learning Advanced Research Topics in NLP, Info Storage, Cloud Computing and Machine Learning Domain.",
+        "⚡ Worked on various impact based projects like TA Management Portal, Neural Machine Translation and Travelix. Active Involvement in extracurricular activities such as Judge of TAMU Hackathon and Conference participant. ",
+        "⚡ Coursework Taken : Advanced DS and Algo, Machine Learning, Software Engineering, Data Mining and Analysis, Distributed Systems, Information Storage & Reterival, Parallel Computing, Deep Learning, Network Security.",
       ],
       website_link: "https://www.tamu.edu/",
     },
@@ -362,9 +362,9 @@ const degrees = {
       duration: "2015 - 2019",
       descriptions: [
         "⚡ Graduated with specialization in Machine Learning and Data Analysis with CGPA 9.62. ",
-        "⚡ Gold Medalist and Schoalrship Holder for Exemplary Academic Performance. Worked with Professors as Research Fellow.",
+        "⚡ Gold Medalist and Scholarship Holder for Exemplary Academic Performance. Worked with Professors as Research Fellow.",
         "⚡ I have also completed various online courses for ML/DL, Web Development, Mobile App Development, etc. and implemented avrious projects based on courses I learnt.",
-        "⚡ Coursework Taken : DS, Algo, OS, DBMS, Networking, ML, DL, AI, NLP, Capstone etc. ",
+        "⚡ Coursework Taken : DS, Algo, Entrepreneurship, OS, DBMS, Computer Architecture, Networking, ML, Image Processing, Theory of Computation, Compiler, Microprocessors,  DL, AI, NLP, Data Analytics, Capstone etc. ",
       ],
       website_link: "https://www.thapar.edu/",
     },
@@ -558,7 +558,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Research",
   description:
-    "I am a Software Engineer with a demonstrated history of working in the industry and driven by passion to bridge the gap between cutting-edge research and practical implementation to solve complex problems. I have 4 years of experience as a Software Engineer with couple of internships most recent being Summer 2023 Intern at LinkedIN. In past I have worked as Senior Engineer at Western Digital where I was responsible for driving FW modules development.",
+    "I am a Software Engineer with a demonstrated history of working in the industry and driven by passion to bridge the gap between cutting-edge research and practical implementation to solve complex problems. I have 4 years of experience as a Software Engineer with couple of internships at prestigious companies like AMD and LinkedIN. In past I have worked as Senior Engineer at Western Digital where I was responsible for driving FW modules development.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -594,7 +594,7 @@ const experience = {
           duration: "July 2019 - July 2022",
           location: "Bangalore, KA",
           description:
-            " Designed Robust Firmware for Error Handling of XOR to better handle defective NAND Memories. Planned Remodelling of Verification Framework for HW Registers in Firmware itself to avoid redundancies in Validation cycles. Revised Performance Gaps in Existing SSD FW to meet Blue Category Performance Numbers. Deployed Code with 25% increase in Write-Read CDM Benchmark.",
+            " Designed Robust Firmware for Error Handling of XOR to better handle defective NAND Memories. Planned Remodelling of Verification Framework for HW Registers in Firmware itself to avoid redundancies in Validation cycles. Revised Performance Gaps in Existing SSD FW to meet Blue Category Performance Numbers. Deployed Code with 25% increase in Write-Read CDM Benchmark. I have equal exposure in various Innovative Forums such as Innovation Bazaar, SDC 2020 and Hackathons",
           color: "#2962FF",
         },
       ],
@@ -603,6 +603,17 @@ const experience = {
       title: "Internships",
       experiences: [
         {
+          title: "Co-op Software Intern",
+          company: "AMD",
+          company_url: "https://www.amd.com/",
+          logo_path: "amd.png",
+          duration: "Jan 2024 - May 2024",
+          location: "Austin, TX",
+          description:
+            "Contributing to the development of high-performance computer software and hardware leveraging expertise in Python, accelerators, deep learning and GPUs, resulting in impactful innovations influencing different Machine Learning benchmarks and future product roadmaps.",
+          color: "#ee3c26",
+        },
+        {
           title: "Software Intern",
           company: "LinkedIN",
           company_url: "https://www.linkedin.com/",
@@ -610,7 +621,7 @@ const experience = {
           duration: "May 2023 - Aug 2023",
           location: "Mountain View, CA",
           description:
-            "Worked as a Summer Intern at LinkedIn where I designed Real Time Automation Frameowork with SQL Database to solve Conflict Resolutions. For the most part, the MySQL team does not have any awareness of several incidents of data divergence due to bugs unless reported by our users. Hence designed a automation framework to detect and report such discrepancies. I have equal exposure in various Innovative Forums such as Innovation Bazaar and Hackathons",
+            "Worked as a Summer Intern at LinkedIn where I designed Real Time Automation Frameowork with SQL Database to solve Conflict Resolutions. For the most part, the MySQL team does not have any awareness of several incidents of data divergence due to bugs unless reported by our users. Hence designed a automation framework to detect and report such discrepancies. Active involvement in leadership forums such as SiteCon and Hackathons.",
           color: "#ee3c26",
         },
         {
@@ -1069,6 +1080,55 @@ const projects = {
         {
           name: "Hugging Face",
           iconifyClass: "emojione:hugging-face",
+        },
+      ],
+    },
+    {
+      name: "Neural Machine Translation using Transformer",
+      url: "https://github.com/bassirishabh/DeepLearning_CourseTAMU",
+      description:
+        "Implemented a Neural Machine Translation (NMT) using Transformer architecture for language translation with an emphasis on sequence-to-sequence learning. ",
+      languages: [
+        {
+          name: "Python",
+          iconifyClass: "logos-python",
+        },
+        {
+          name: "Tensorflow",
+          iconifyClass: "logos-tensorflow",
+        },
+        {
+          name: "NLP",
+          iconifyClass: "carbon:ibm-watson-natural-language-understanding",
+        },
+        {
+          name: "Deep Lerning",
+          iconifyClass: "devicon:keras",
+        },
+      ],
+    },
+    {
+      name:
+        "Parallelizing Strassen’s Matrix-Multiplication Algorithm with GPU & OpenMP",
+      url: "https://github.com/bassirishabh/ParallelComputing_CourseTAMU",
+      description:
+        "Leveraging GPU computing, OpenMP for multi-threading, and MPI for distributed parallelism, the project achieved significant performance improvements.",
+      languages: [
+        {
+          name: "C++",
+          iconifyClass: "devicon:cplusplus",
+        },
+        {
+          name: "OpenMP",
+          iconifyClass: "iconoir:project-curve-3d",
+        },
+        {
+          name: "GPU",
+          iconifyClass: "mdi:gpu",
+        },
+        {
+          name: "Parallel Computing",
+          iconifyClass: "carbon:ibm-watson-natural-language-understanding",
         },
       ],
     },
