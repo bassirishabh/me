@@ -50,7 +50,7 @@ function Education(props) {
                 new be it online courses or life necessities like cooking. I
                 actively participate in hackathons and other tech-related
                 activities. My Detailed CV can be found{" "}
-                <a href="https://drive.google.com/file/d/1_9XCgfkuNd5dPKxegqilfYBGg_GQUWCM/view?usp=sharing">
+                <a href="https://drive.google.com/file/d/1-zqnC0qR_F-9A8UIYlZujqj-oP7xrClu/view?usp=sharing">
                   Here
                 </a>
                 .
