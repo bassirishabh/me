@@ -1061,7 +1061,7 @@ const projects = {
     },
     {
       name: "Political Propoganda Influence using Twitter SA",
-      url: ",
+      URL: "",
       description:
         "Predict influence of celebrities during elections using sentiment analysis on Retweets of their followers.",
       languages: [
